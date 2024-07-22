@@ -74,7 +74,7 @@ colnames(bill_sum) <- c("Country", "Combined Billionaire Worth for Country (in b
 
 ui <- fluidPage(
   
-  titlePanel("Billionaire and Wealth Data for Countries with the Greatest Number of Billionaires"),
+  titlePanel("Billionaire and Wealth Data for 10 World Countries"),
   
   sidebarLayout(
     
