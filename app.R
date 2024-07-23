@@ -136,7 +136,8 @@ server <- function(input, output, session) {
   })
   
   #output$table <- renderTable(filtered_table())
- output$table <- renderDT(datatable(bill_sum, rownames = FALSE))
+  output$table <- renderDT(datatable(bill_sum, rownames = FALSE, 
+                                    options = list(pageLength = 5)))
 
 }
 
